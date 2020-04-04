@@ -39,16 +39,6 @@ li {
   display: none;
 }
 
-#js-pageTop {
-  font-size: 12px;
-  font-weight: bold;
-  display: block;
-  padding: 10px;
-  cursor: pointer;
-  text-align: center;
-  background-color: #ccc;
-}
-
 .hover-action-01 {
   display: block;
   -webkit-transition: all .3s;
@@ -276,33 +266,31 @@ li {
   content: "";
 }
 
-#works .card:nth-child(3n+1):nth-last-child(-n+3),
-#works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
-  margin-bottom: 0;
-}
 
 /*--------------------------------
  FEATURE
 ---------------------------------*/
 
-#feature .section-body {
+#blog .section-body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-#feature .section-image {
+#blog .section-image {
   flex-basis: 58%;
 }
 
-#feature .section-image img {
+#blog .section-image img {
   width: 100%;
   margin: 0 auto;
 }
 
-#feature .section-desc {
+#blog .section-desc {
   flex-basis: 37%;
 }
+
+
 
 /*--------------------------------
  ABOUT
